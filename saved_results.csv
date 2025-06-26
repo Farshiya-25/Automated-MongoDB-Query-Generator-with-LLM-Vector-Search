@@ -1,0 +1,22 @@
+Question: Find all products with a rating below 4.5 that have more than 200 reviews and are offered by the brand 'Nike' or 'Sony'.
+
+                        _id  ProductID    ProductName Category  Price  Rating  ReviewCount  Stock  Discount Brand LaunchDate
+0  685a8df850977991dad15dfd        104  Running Shoes   Sports  49.99     4.3          500    200      20.0  Nike 2022-02-10
+--------------------------------------------------------------------------------
+Question: Which products in the Electronics category have a rating of 4.5 or higher and are in stock?
+
+                        _id  ProductID                  ProductName     Category   Price  ...  ReviewCount  Stock  Discount     Brand LaunchDate
+0  685a8df850977991dad15dfc        103  Noise Cancelling Headphones  Electronics  199.99  ...          125     60      15.0      Sony 2021-09-05
+1  685a8df850977991dad15dfb        102              Gaming Keyboard  Electronics   75.49  ...          350     85       5.0   Corsair 2021-11-20
+2  685a8df850977991dad15e02        109                     Smart TV  Electronics  399.99  ...          150     25      15.0   Samsung 2022-06-10
+3  685a8df850977991dad15dfe        105                   Smartwatch  Electronics  159.99  ...          220     45      10.0     Apple 2022-03-30
+4  685a8df850977991dad15dfa        101               Wireless Mouse  Electronics   25.99  ...          200    150      10.0  Logitech 2022-01-15
+
+[5 rows x 11 columns]
+--------------------------------------------------------------------------------
+
+Question: List products launched after January 1, 2022, in the Home & Kitchen or Sports categories with a discount of 10% or more, sorted by price in descending order.
+
+   ProductID    ProductName Category  Price  Rating  ReviewCount  Stock  Discount Brand LaunchDate
+0        104  Running Shoes   Sports  49.99     4.3          500    200      20.0  Nike 2022-02-10
+----------------------------------------------------------------------------------------------------
